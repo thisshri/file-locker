@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserRegistration</class>
+ <widget class="QWizardPage" name="UserRegistration">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WizardPage</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>New User Registraiton : </string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>501</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbRegister">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>360</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Register</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lUserName">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Username:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leUserName">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbPassword">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>181</y>
+     <width>69</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lePassword">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>181</y>
+     <width>209</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbDob">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>204</y>
+     <width>161</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DOB (DD/MM/YYYY)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leDob">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>205</y>
+     <width>209</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbPin">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>227</y>
+     <width>40</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PIN</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbAnyFile">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>250</y>
+     <width>59</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Any file</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lePin">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>229</y>
+     <width>209</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbEmail">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>273</y>
+     <width>47</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbCustomPassword">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>296</y>
+     <width>130</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Custom Passord Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leEmail">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>276</y>
+     <width>209</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leCustomPassN">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>299</y>
+     <width>209</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbCheckUserName">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>120</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>check if avalible</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CustomPass">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>319</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>     Custom Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbSelectFile">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>252</y>
+     <width>209</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select File</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leCustomPass">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>323</y>
+     <width>209</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lUserNameStatus">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>120</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
